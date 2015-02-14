@@ -1,0 +1,4 @@
+Gems Test :-)
+=============
+
+Simple rails application to play around with my own gems!
