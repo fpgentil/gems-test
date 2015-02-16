@@ -1,7 +1,6 @@
 require 'spec_helper'
 
-describe OxfordLearnersDictionariesControllerController do
-
+describe OxfordLearnersDictionariesController do
   describe 'GET index' do
   end
 

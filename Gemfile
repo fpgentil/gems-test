@@ -7,6 +7,7 @@ gem 'rails', '4.2.0'
 # DB
 # gem 'mysql2'
 # gem 'pg'
+gem 'sqlite3'
  
 # Assets
 gem 'less-rails'

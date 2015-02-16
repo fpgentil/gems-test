@@ -1,0 +1,4 @@
+<%= simple_form_for :oxford_learners_dictionaries, :url => '/oxford_learners_dictionaries/search', method: :get do |f| %>
+  <%= f.input :search, as: :string %>
+  <%= f.button :submit %>
+<% end %>
