@@ -12,6 +12,7 @@ gem 'rails', '4.2.0'
 gem 'less-rails'
 gem 'jquery-rails'
 gem 'oxford_learners_dictionaries'
+gem 'simple_form'
 gem 'therubyracer', platforms: :ruby
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
