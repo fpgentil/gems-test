@@ -1,4 +1,16 @@
 <%= simple_form_for :oxford_learners_dictionaries, :url => '/oxford_learners_dictionaries/search', method: :get do |f| %>
-  <%= f.input :search, as: :string %>
+  <%= f.input :word, as: :string %>
   <%= f.button :submit %>
+<% end %>
+
+<br/>
+<br/>
+DEFINITIONS
+<br/>
+<br/>
+
+<% if @oxford %>
+  <% @oxford.definition.count.times do |index| %>
+    <p><%= @oxford.definition[:"definition_#{index}"] %></p>
+  <% end %>
 <% end %>
