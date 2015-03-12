@@ -1,6 +1,14 @@
-<p>
-  Easy interface to test my own gems! \o/
-</p>
-<p>
-  <%= link_to 'OxfordLearnersDictionaries::English', search_oxford_learners_dictionaries_path %>
-</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GemsTest</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

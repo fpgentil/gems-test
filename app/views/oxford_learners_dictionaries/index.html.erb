@@ -1,13 +1,18 @@
+<%= link_to 'Home', root_url %>
+
+<br/>
+<br/>
+
 <%= simple_form_for :oxford_learners_dictionaries, :url => '/oxford_learners_dictionaries/search', method: :get do |f| %>
   <%= f.input :word, as: :string %>
   <%= f.button :submit %>
 <% end %>
 
 <br/>
-<br/>
-DEFINITIONS
-<br/>
-<br/>
+
+<p>
+  DEFINITION
+</p>
 
 <% if @oxford %>
   <% @oxford.definition.count.times do |index| %>
