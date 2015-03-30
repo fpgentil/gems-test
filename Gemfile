@@ -12,7 +12,7 @@ gem 'pg'
 # Assets
 gem 'less-rails'
 gem 'jquery-rails'
-gem 'oxford_learners_dictionaries'
+gem 'oxford_learners_dictionaries', "0.1.2"
 gem 'simple_form'
 gem 'therubyracer', platforms: :ruby
 gem 'turbolinks'
