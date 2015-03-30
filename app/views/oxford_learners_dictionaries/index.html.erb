@@ -15,7 +15,9 @@
 </p>
 
 <% if @oxford %>
-  <% @oxford.definition.count.times do |index| %>
-    <p><%= @oxford.definition[:"definition_#{index}"] %></p>
+  <% @oxford.each do |key, value| %>
+  <p>
+    <%= key %>: <%= value %>
+  </p>
   <% end %>
 <% end %>
